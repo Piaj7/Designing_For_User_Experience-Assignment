@@ -4,142 +4,60 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>BMW Second Hand Cars</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #999999;
-    }
-
-    header {
-      background-color: #660C0D;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav {
-      background-color: #444;
-      padding: 10px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-    }
-
-    .container {
-      padding: 20px;
-    }
-
-    .car-listing {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: space-around;
-    }
-
-    .car-card {
-      background-color: white;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      width: 350px;
-      padding: 10px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    }
-
-    .car-card img {
-      width: 100%;
-      border-radius: 5px;
-    }
-
-    .car-card h3 {
-      margin: 10px 0 5px;
-    }
-
-    .car-card p {
-      margin: 0;
-      font-size: 14px;
-    }
-
-    .car-description {
-      margin-top: 10px;
-      font-size: 13px;
-      color: #333;
-    }
-
-    .gallery-button {
-      display: block;
-      width: 200px;
-      margin: 30px auto;
-      text-align: center;
-      padding: 10px;
-      background-color: #007BFF;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      margin-top: 40px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header>
-    <h1>Bmw Second Hand Cars</h1>
+    <h1>BMW Second Hand Cars</h1>
   </header>
 
   <nav>
-    <a href="#">Search</a>
-    <a href="#">Gallery</a>
-    <a href="#">Home</a>
+    <a href="">Search</a>
+    <a href="">Gallery</a>
+    <a href="">Home</a>
   </nav>
 
   <div class="container">
-    <h2>Second Hand BMW For Sale:</h2>
-    <div class="car-listing">
-     
-      <div class="car-card">
+    <h2>New Listings:</h2>
+    <ul class="car-listing">
+
+      <li class="car-card">
+		<a href="i4.html" target="_blank" style="text-decoration: none; color: inherit;">
         <img src="images/bmwi4.jpeg" alt="BMW i4 Electric Car second hand">
         <h3>BMW i4</h3>
         <p>Year: 2022<br>Price: £25,990<br>Condition: Excellent</p>
         <div class="car-description">
           A fully electric gran coupe offering impressive range and performance. Features include a high-tech interior, fast charging, and BMW's signature driving dynamics.
         </div>
-      </div>
+      </li>
 
-      <div class="car-card">
-        <img src="images/bmwm3.jpeg" alt="BMW M3 3.0">
-        <h3>BMW M3 3.0</h3>
-        <p>Year: 2022<br>Price: £60,800<br>Condition: Like New</p>
-        <div class="car-description">
-          The ultimate sports sedan with a turbocharged 3.0L engine, advanced suspension, and aggressive styling. Ideal for enthusiasts looking for speed and luxury.
-        </div>
-      </div>
+      <li class="car-card">
+        <a href="M3.html" target="_blank" style="text-decoration: none; color: inherit;">
+          <img src="images/bmwm3.jpeg" alt="BMW M3 3.0">
+          <h3>BMW M3</h3>
+          <p>Year: 2022<br>Price: £60,800<br>Condition: Like New</p>
+          <div class="car-description">
+            The ultimate sports sedan with a turbocharged 3.0L engine, advanced suspension, and aggressive styling. Ideal for enthusiasts looking for speed and luxury.
+          </div>
+        </a>
+      </li>
 
-      <div class="car-card">
+      <li class="car-card">
+		<a href="3_series.html" target="_blank" style="text-decoration: none; color: inherit;">
         <img src="images/bmw3series.jpeg" alt="BMW 3 series">
         <h3>BMW 3 Series Saloon</h3>
         <p>Year: 2016<br>Price: £6,000<br>Condition: Okay</p>
         <div class="car-description">
           A reliable and fuel-efficient option for everyday driving. Comes with a comfortable interior, decent boot space, and a strong track record of performance.
         </div>
-      </div>
+      </li>
 
-    </div>
+    </ul>
   </div>
 
   <footer>
-    <p>BmwSecondHand.co.org</p>
+    <p>BmwSecondHand.co.uk by Fayaaz</p>
   </footer>
 
 </body>
